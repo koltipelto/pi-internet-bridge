@@ -27,10 +27,19 @@ sudo apt-get upgrade
 ```
 
 ### Step 2
-Install `dnsmasq`
+Install `dnsmasq` and `iptables`
 ```
-sudo apt-get install dnsmasq
+sudo apt-get install dnsmasq iptables
 ```
+**adicional
+sudo apt-get install perl libnet-ssleay-perl openssl libauthen-pam-perl libpam-runtime libio-pty-perl apt-show-versions python shared-mime-info
+
+wget https://sourceforge.net/projects/webadmin/files/webmin/2.021/webmin_2.021_all.deb
+
+dpkg --install webmin_2.021_all.deb
+
+**eu fiz
+sudo reboot
 
 ### Step 3
 Configure the ethernet connection  
